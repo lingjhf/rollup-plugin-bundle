@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "extends": ["plugin:@typescript-eslint/recommended"],
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint"]
+    },
+    {
+      "files": ["*.js"],
+      "parser": "@babel/eslint-parser"
+    }
+  ]
+}
